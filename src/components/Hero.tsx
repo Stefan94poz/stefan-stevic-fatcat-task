@@ -1,4 +1,4 @@
-export const Hero = ({ title, image }) => {
+export const Hero: React.FC<IHero> = ({ title, image }) => {
     return (
         <div className="flex row justify-center items-center gap-4 h-screen">
             <div className="w-4/12">

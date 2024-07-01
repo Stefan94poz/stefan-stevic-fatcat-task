@@ -1,5 +1,5 @@
 import clsx from 'clsx';
 
-export const Layout = ({ children, background }) => {
+export const Layout: React.FC<LayoutProps> = ({ children, background }) => {
     return <section className={clsx('py-20', background)}>{children}</section>;
 };

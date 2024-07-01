@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-export const Button = ({ children, onClick, className }) => {
+export const Button: React.FC<IButton> = ({ children, onClick, className }) => {
     return (
         <button
             className={clsx(

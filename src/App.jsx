@@ -1,11 +1,13 @@
 import './styles.css';
 
-import { Landing } from './components/landing/Landing.jsx';
+import { Landing } from './components/landing/Landing.tsx';
+import { UsersList } from './components/UsersList.tsx';
 
 function App() {
     return (
         <main>
             <Landing />
+            <UsersList />
         </main>
     );
 }

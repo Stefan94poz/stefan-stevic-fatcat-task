@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-export const Card = ({ title, text, link }) => (
+export const Card: React.FC<ICard> = ({ title, text, link }) => (
     <div
         className={clsx(
             'flex',
